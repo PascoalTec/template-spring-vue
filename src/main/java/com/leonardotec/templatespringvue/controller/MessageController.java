@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RestController
 @RequestMapping ("/api/messages")
 public class MessageController {
+    
     @GetMapping(value="/hello")
     public String hello() {
         return "Aplicação Spring";
